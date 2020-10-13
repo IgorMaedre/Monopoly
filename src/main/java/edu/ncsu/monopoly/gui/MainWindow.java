@@ -118,6 +118,7 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 	public void movePlayer(int index, int from, int to) {
 		GUICell fromCell = queryCell(from);
 		GUICell toCell = queryCell(to);
+		if (fromCell == null || toCell == null) return;
 		fromCell.removePlayer(index);
 		toCell.addPlayer(index);
 	}
