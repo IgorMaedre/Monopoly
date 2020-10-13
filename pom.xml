@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>iso2</groupId>
-  <artifactId>Monopoly</artifactId>
+  <artifactId>MonopolyGit</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -35,10 +35,10 @@
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
-      <sonar.projectKey>MonopolySept8</sonar.projectKey>   
-      <sonar.organization>jononekin</sonar.organization>
+      <sonar.projectKey>MonopolyGit</sonar.projectKey>   
+      <sonar.organization>igormaedre</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>  
-      <sonar.login>81a08424362a8029f028324821a72c8f207530ae</sonar.login> 
+      <sonar.login>1db616cbb2ac226dbf3a544efcfac297c8791a1f</sonar.login> 
     </properties>
 
   <dependencies>
